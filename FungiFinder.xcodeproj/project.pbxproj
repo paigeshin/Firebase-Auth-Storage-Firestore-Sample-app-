@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C34A112279C105300250A26 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C34A111279C105300250A26 /* RegisterViewModel.swift */; };
+		6C34A116279C11C100250A26 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C34A115279C11C100250A26 /* LoginViewModel.swift */; };
+		6C34A118279C135500250A26 /* FungiListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C34A117279C135500250A26 /* FungiListViewModel.swift */; };
+		6C34A11A279C1A9F00250A26 /* Fungi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C34A119279C1A9F00250A26 /* Fungi.swift */; };
+		6C34A11C279C1BE500250A26 /* FungiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C34A11B279C1BE500250A26 /* FungiViewModel.swift */; };
+		6C34A11F279C1EEB00250A26 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6C34A11E279C1EEB00250A26 /* URLImage */; };
+		6F243FA57AAF0F491658C468 /* Pods_FungiFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA30189B59750300D1EFF9F1 /* Pods_FungiFinder.framework */; };
+		8DCC502C255182E60079E6AF /* FungiFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC502B255182E60079E6AF /* FungiFinderApp.swift */; };
+		8DCC5030255182E60079E6AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCC502F255182E60079E6AF /* Assets.xcassets */; };
+		8DCC5033255182E60079E6AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCC5032255182E60079E6AF /* Preview Assets.xcassets */; };
+		8DE2F120255184DB0013BF0F /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2F11F255184DB0013BF0F /* View+Extensions.swift */; };
+		8DE2F125255190690013BF0F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2F124255190690013BF0F /* LoginView.swift */; };
+		8DE2F12925519D350013BF0F /* Credits in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2F12825519D350013BF0F /* Credits */; };
+		8DE2F1332551AEA90013BF0F /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2F1322551AEA90013BF0F /* PrimaryButtonStyle.swift */; };
+		8DE2F1362551B91B0013BF0F /* SecondaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2F1352551B91B0013BF0F /* SecondaryButtonStyle.swift */; };
+		8DE2F1472551D1400013BF0F /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2F1462551D1400013BF0F /* RegisterView.swift */; };
+		8DE2F165255204F60013BF0F /* FungiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2F164255204F60013BF0F /* FungiListView.swift */; };
+		8DE2F1692552F9AD0013BF0F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2F1682552F9AD0013BF0F /* ImagePicker.swift */; };
+		8DE2F16C2552FE810013BF0F /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2F16B2552FE810013BF0F /* PhotoCaptureView.swift */; };
+		8DE2F1A125532F2C0013BF0F /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2F1A025532F2C0013BF0F /* UIImage+Extensions.swift */; };
+		8DE2F2002553AA0F0013BF0F /* EmptyFungiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2F1FF2553AA0F0013BF0F /* EmptyFungiView.swift */; };
+		8DE2F20625544A7C0013BF0F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2F20525544A7C0013BF0F /* LoadingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57C6DEECADCBB2F748DFFDDA /* Pods-FungiFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FungiFinder.debug.xcconfig"; path = "Target Support Files/Pods-FungiFinder/Pods-FungiFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		6C34A111279C105300250A26 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		6C34A115279C11C100250A26 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		6C34A117279C135500250A26 /* FungiListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FungiListViewModel.swift; sourceTree = "<group>"; };
+		6C34A119279C1A9F00250A26 /* Fungi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fungi.swift; sourceTree = "<group>"; };
+		6C34A11B279C1BE500250A26 /* FungiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FungiViewModel.swift; sourceTree = "<group>"; };
+		70CA428B8A776130EAD8CC13 /* Pods-FungiFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FungiFinder.release.xcconfig"; path = "Target Support Files/Pods-FungiFinder/Pods-FungiFinder.release.xcconfig"; sourceTree = "<group>"; };
+		8DCC5028255182E60079E6AF /* FungiFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FungiFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCC502B255182E60079E6AF /* FungiFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FungiFinderApp.swift; sourceTree = "<group>"; };
+		8DCC502F255182E60079E6AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DCC5032255182E60079E6AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DCC5034255182E60079E6AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE2F11F255184DB0013BF0F /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		8DE2F124255190690013BF0F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8DE2F12825519D350013BF0F /* Credits */ = {isa = PBXFileReference; lastKnownFileType = text; path = Credits; sourceTree = "<group>"; };
+		8DE2F1322551AEA90013BF0F /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		8DE2F1352551B91B0013BF0F /* SecondaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButtonStyle.swift; sourceTree = "<group>"; };
+		8DE2F1462551D1400013BF0F /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		8DE2F164255204F60013BF0F /* FungiListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FungiListView.swift; sourceTree = "<group>"; };
+		8DE2F1682552F9AD0013BF0F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		8DE2F16B2552FE810013BF0F /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
+		8DE2F1A025532F2C0013BF0F /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		8DE2F1FF2553AA0F0013BF0F /* EmptyFungiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyFungiView.swift; sourceTree = "<group>"; };
+		8DE2F20525544A7C0013BF0F /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		FA30189B59750300D1EFF9F1 /* Pods_FungiFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FungiFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DCC5025255182E60079E6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C34A11F279C1EEB00250A26 /* URLImage in Frameworks */,
+				6F243FA57AAF0F491658C468 /* Pods_FungiFinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05DAEB76E0EF09E73087F751 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57C6DEECADCBB2F748DFFDDA /* Pods-FungiFinder.debug.xcconfig */,
+				70CA428B8A776130EAD8CC13 /* Pods-FungiFinder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84FE4ADFE3D721C183DA88B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA30189B59750300D1EFF9F1 /* Pods_FungiFinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DCC501F255182E60079E6AF = {
+			isa = PBXGroup;
+			children = (
+				8DCC502A255182E60079E6AF /* FungiFinder */,
+				8DCC5029255182E60079E6AF /* Products */,
+				05DAEB76E0EF09E73087F751 /* Pods */,
+				84FE4ADFE3D721C183DA88B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8DCC5029255182E60079E6AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DCC5028255182E60079E6AF /* FungiFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DCC502A255182E60079E6AF /* FungiFinder */ = {
+			isa = PBXGroup;
+			children = (
+				8DE2F1D025533DAD0013BF0F /* Models */,
+				8DE2F1492551D20C0013BF0F /* View Models */,
+				8DE2F123255190540013BF0F /* Views */,
+				8DE2F11E255184CA0013BF0F /* Extensions */,
+				8DCC502B255182E60079E6AF /* FungiFinderApp.swift */,
+				8DCC502F255182E60079E6AF /* Assets.xcassets */,
+				8DCC5034255182E60079E6AF /* Info.plist */,
+				8DCC5031255182E60079E6AF /* Preview Content */,
+				8DE2F12825519D350013BF0F /* Credits */,
+			);
+			path = FungiFinder;
+			sourceTree = "<group>";
+		};
+		8DCC5031255182E60079E6AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8DCC5032255182E60079E6AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DE2F11E255184CA0013BF0F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8DE2F11F255184DB0013BF0F /* View+Extensions.swift */,
+				8DE2F1A025532F2C0013BF0F /* UIImage+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8DE2F123255190540013BF0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8DE2F12B2551AB310013BF0F /* Styles */,
+				8DE2F124255190690013BF0F /* LoginView.swift */,
+				8DE2F1462551D1400013BF0F /* RegisterView.swift */,
+				8DE2F164255204F60013BF0F /* FungiListView.swift */,
+				8DE2F1682552F9AD0013BF0F /* ImagePicker.swift */,
+				8DE2F16B2552FE810013BF0F /* PhotoCaptureView.swift */,
+				8DE2F1FF2553AA0F0013BF0F /* EmptyFungiView.swift */,
+				8DE2F20525544A7C0013BF0F /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8DE2F12B2551AB310013BF0F /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				8DE2F1322551AEA90013BF0F /* PrimaryButtonStyle.swift */,
+				8DE2F1352551B91B0013BF0F /* SecondaryButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		8DE2F1492551D20C0013BF0F /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				6C34A111279C105300250A26 /* RegisterViewModel.swift */,
+				6C34A115279C11C100250A26 /* LoginViewModel.swift */,
+				6C34A117279C135500250A26 /* FungiListViewModel.swift */,
+				6C34A11B279C1BE500250A26 /* FungiViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		8DE2F1D025533DAD0013BF0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6C34A119279C1A9F00250A26 /* Fungi.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DCC5027255182E60079E6AF /* FungiFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DCC5037255182E60079E6AF /* Build configuration list for PBXNativeTarget "FungiFinder" */;
+			buildPhases = (
+				5D68D22171118B19A4C9D9DA /* [CP] Check Pods Manifest.lock */,
+				8DCC5024255182E60079E6AF /* Sources */,
+				8DCC5025255182E60079E6AF /* Frameworks */,
+				8DCC5026255182E60079E6AF /* Resources */,
+				A1A22257C8DEB9E1F605CDB4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FungiFinder;
+			packageProductDependencies = (
+				6C34A11E279C1EEB00250A26 /* URLImage */,
+			);
+			productName = FungiFinder;
+			productReference = 8DCC5028255182E60079E6AF /* FungiFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DCC5020255182E60079E6AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					8DCC5027255182E60079E6AF = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 8DCC5023255182E60079E6AF /* Build configuration list for PBXProject "FungiFinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DCC501F255182E60079E6AF;
+			packageReferences = (
+				6C34A11D279C1EEB00250A26 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
+			productRefGroup = 8DCC5029255182E60079E6AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DCC5027255182E60079E6AF /* FungiFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DCC5026255182E60079E6AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCC5033255182E60079E6AF /* Preview Assets.xcassets in Resources */,
+				8DE2F12925519D350013BF0F /* Credits in Resources */,
+				8DCC5030255182E60079E6AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D68D22171118B19A4C9D9DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FungiFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1A22257C8DEB9E1F605CDB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FungiFinder/Pods-FungiFinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FungiFinder/Pods-FungiFinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FungiFinder/Pods-FungiFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DCC5024255182E60079E6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE2F16C2552FE810013BF0F /* PhotoCaptureView.swift in Sources */,
+				8DE2F1332551AEA90013BF0F /* PrimaryButtonStyle.swift in Sources */,
+				6C34A118279C135500250A26 /* FungiListViewModel.swift in Sources */,
+				8DE2F165255204F60013BF0F /* FungiListView.swift in Sources */,
+				8DCC502C255182E60079E6AF /* FungiFinderApp.swift in Sources */,
+				8DE2F1472551D1400013BF0F /* RegisterView.swift in Sources */,
+				8DE2F2002553AA0F0013BF0F /* EmptyFungiView.swift in Sources */,
+				6C34A116279C11C100250A26 /* LoginViewModel.swift in Sources */,
+				6C34A11C279C1BE500250A26 /* FungiViewModel.swift in Sources */,
+				8DE2F125255190690013BF0F /* LoginView.swift in Sources */,
+				8DE2F20625544A7C0013BF0F /* LoadingView.swift in Sources */,
+				6C34A112279C105300250A26 /* RegisterViewModel.swift in Sources */,
+				8DE2F1362551B91B0013BF0F /* SecondaryButtonStyle.swift in Sources */,
+				8DE2F1692552F9AD0013BF0F /* ImagePicker.swift in Sources */,
+				8DE2F1A125532F2C0013BF0F /* UIImage+Extensions.swift in Sources */,
+				8DE2F120255184DB0013BF0F /* View+Extensions.swift in Sources */,
+				6C34A11A279C1A9F00250A26 /* Fungi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8DCC5035255182E60079E6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DCC5036255182E60079E6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DCC5038255182E60079E6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C6DEECADCBB2F748DFFDDA /* Pods-FungiFinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FungiFinder/Preview Content\"";
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FungiFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paige.fungifinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DCC5039255182E60079E6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70CA428B8A776130EAD8CC13 /* Pods-FungiFinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FungiFinder/Preview Content\"";
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FungiFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paige.fungifinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DCC5023255182E60079E6AF /* Build configuration list for PBXProject "FungiFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCC5035255182E60079E6AF /* Debug */,
+				8DCC5036255182E60079E6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DCC5037255182E60079E6AF /* Build configuration list for PBXNativeTarget "FungiFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCC5038255182E60079E6AF /* Debug */,
+				8DCC5039255182E60079E6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6C34A11D279C1EEB00250A26 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6C34A11E279C1EEB00250A26 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C34A11D279C1EEB00250A26 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8DCC5020255182E60079E6AF /* Project object */;
+}
